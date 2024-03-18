@@ -14,6 +14,7 @@ kite = kt.KiteApp("avinash","PQW807",enc)#this block will authenticate the user 
 #below you can write code for the authentication of kotakapi (which will be used for order placing purpose)
 
 
-
 while True:
-  print(kite.ltp("WIPRO"))
+ x = kite.ltp("NSE:WIPRO")
+ print(x)
+ time.sleep(5)
